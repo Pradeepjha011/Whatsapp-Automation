@@ -10,20 +10,24 @@ class Config:
         "WHATSAPP_TOKEN",
         "EAAlkrNtzZAa8BRNNnZAvBGhsRW6SkF0rzP8ZAtptU4ZBAl8g1TD3UZBHZC9zP1WmYTC6dLvGez5ZCydIpKY9f1jjwcBj1BdqpusZAd0BHqYjHayRqxKyZCUVFDXHCOoqtLWFZA9gePHxZCtcLRWrdNxctCtzOQlsQhGfiljbuBzphkkwrE2IhEHuBSVvrjQn2pXWga46qEdahff0qb84Q5CdvmrocCRspVX9JqjEZBFG",
     )
+<<<<<<< HEAD
     PHONE_NUMBER_ID = os.getenv("PHONE_NUMBER_ID", "1047973371731561")
+=======
+    PHONE_NUMBER_ID = os.getenv("PHONE_NUMBER_ID", "")
+>>>>>>> 9e06e20cb8c0d10b3958ff8a291f745553584fbb
     WHATSAPP_API_VERSION = os.getenv("WHATSAPP_API_VERSION", "v18.0")
     WA_TEMPLATE_NAME = os.getenv("WA_TEMPLATE_NAME", "q_temp")
     WA_TEMPLATE_LANG = os.getenv("WA_TEMPLATE_LANG", "en")
     WA_TEMPLATE_USE_LEAD_NAME = os.getenv("WA_TEMPLATE_USE_LEAD_NAME", "true").lower() == "true"
 
-    ZOHO_CLIENT_ID = os.getenv("ZOHO_CLIENT_ID", "1000.K02HRTM1U66SFIKOF07SVL5RUP7TNI")
+    ZOHO_CLIENT_ID = os.getenv("ZOHO_CLIENT_ID", "")
     ZOHO_CLIENT_SECRET = os.getenv(
         "ZOHO_CLIENT_SECRET",
-        "383bcbe14ccefc917343f894a60ad1a19c760353ff",
+        "",
     )
     ZOHO_REFRESH_TOKEN = os.getenv(
         "ZOHO_REFRESH_TOKEN",
-        "1000.81d19383a4f7194de2629d2a7e7ba588.9bb4e74b75ad0c8eedbb091384e46217",
+        "",
     )
     ZOHO_ACCOUNTS_URL = os.getenv("ZOHO_ACCOUNTS_URL", "https://accounts.zoho.in")
     ZOHO_API_BASE = os.getenv("ZOHO_API_BASE", "https://www.zohoapis.in")
